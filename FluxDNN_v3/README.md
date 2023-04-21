@@ -1,12 +1,7 @@
 ## FluxDNN.jl
 Deep learning scripts, examples and utility functions on top of [Flux.jl](https://github.com/FluxML/Flux.jl) and julia.
 
-### Usage
-First you will have to clone the repo: 
-```
-git clone https://gitlab.com/bocconi-artlab/FluxDNN.git
-```
-The run the main script, `dnn.jl`,  to train your neural network. 
+Run the main script, `dnn.jl`,  to train your neural network. 
 Let's train a multi-layer perceptron with 2 hidden layer of 100 neurons each on the MNIST dataset:
 ```julia
 julia> include("scripts/dnn.jl")
