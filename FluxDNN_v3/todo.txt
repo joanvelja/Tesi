@@ -1,0 +1,3 @@
+- entropy sgd
+- confmat loss
+- layer normalization
